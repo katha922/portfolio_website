@@ -6,13 +6,13 @@
 .primary-color{
     color: #fb6c12;
 }
+/* nav style */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 60px;
-    padding-left: 60px;
-    padding-top: 30px;
+    padding-top: 20px;
+    margin: 0 150px;
     font-size: 30px;
 }
 nav ul{
@@ -36,4 +36,39 @@ nav ul li a{
     font-size: 18px;
     font-weight: 600;
 
+}
+/* header style */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-picture{
+    width: 500px;
+    margin-right: 50px;
+}
+.banner-text1{
+    font-size: 45px;
+    color: #474747;
+    
+}
+.banner-text2{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-contant{
+    max-width: 500px;
 }
