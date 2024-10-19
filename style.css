@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-color{
+    color: #fb6c12;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+.primary-btn{
+    background-color: #fb6c12;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
