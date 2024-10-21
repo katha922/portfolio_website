@@ -72,6 +72,7 @@ nav ul li a{
 .banner-contant{
     max-width: 500px;
 }
+/* about style */
 .about{
     margin: 100px 150px 0px 150px;
     background-color: #FFF8F3;
@@ -83,11 +84,22 @@ nav ul li a{
     text-align: center;
     justify-content: center;
 }
+.about-content p{
+    color: #474747;
+}
 .about-info{
     display: flex;
     gap: 50px;
     margin-left: 320px;
 }
 .about-details{
-    color: rgb(78, 75, 75);
+    color: #474747;
+}
+/* what style */
+.what{
+    text-align: center;
+    margin: 50px;
+}
+.what-text{
+    color: #474747;
 }
