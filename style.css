@@ -72,3 +72,22 @@ nav ul li a{
 .banner-contant{
     max-width: 500px;
 }
+.about{
+    margin: 100px 150px 0px 150px;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    
+}
+.about-content{
+    text-align: center;
+    justify-content: center;
+}
+.about-info{
+    display: flex;
+    gap: 50px;
+    margin-left: 320px;
+}
+.about-details{
+    color: rgb(78, 75, 75);
+}
