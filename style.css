@@ -125,3 +125,40 @@ nav ul li a{
     margin: 0px 150px 0px 150px;
     gap: 20px;
 }
+.download-btn{
+    background-color: #fb6c12;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    left: 45%;
+
+}
+/* contact style */
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px 0px 150px;
+    background-color: #FFF8F3;
+    padding: 40px 80px 40px 40px;
+}
+#name{
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+#email{
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+#message{
+    display: block;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
